@@ -1,0 +1,67 @@
+
+.container-fluid{
+    background-image: url(https://c8.alamy.com/comp/R2XW5A/mixed-grilled-meat-and-vegetables-on-wooden-background-restaurant-feed-R2XW5A.jpg);
+  max-width: 95%;
+  }
+  .search{
+  height: 115px;
+  text-align: center;
+ /* padding-top:5% ; */
+  }
+  
+ .search> input{
+    width: 40%;
+    height:37px;
+    /* margin-left:-5%; */
+  }
+
+  .search>button{
+ margin-left: 1%;
+
+  }
+  
+  .flex-container {
+  
+        
+       display: flex;
+      justify-content:center;
+      /* background-image: url(https://c8.alamy.com/comp/R2XW5A/mixed-grilled-meat-and-vegetables-on-wooden-background-restaurant-feed-R2XW5A.jpg); */
+      flex-wrap: wrap;
+      column-gap: 1%;
+      row-gap:10px;
+      padding-left:15%;
+      padding-right: 15%;
+    
+    }
+
+  
+  
+    .flex-container > div {
+      max-width: 200px;
+      /* border: 1px solid #111111; */
+      padding: 40px 20px 40px 20px;
+      text-align: center;
+      background-color:aliceblue;
+        
+  
+      }
+      
+      .flex-container > div> img {
+        max-width: 100%;
+        height: auto;
+      }
+  
+   p{
+    margin-top:20px;
+   }
+  
+  
+      form>input{
+          background-color: black;
+        color: aliceblue;
+        border-radius: 5px;
+        width: fit-content;
+      }
+  
+     
+ 
