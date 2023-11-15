@@ -60,15 +60,16 @@ function Fetchapi() {
         </button>
       </div>
       <div className="container-fluid flex-container">
-        {meals.map((meal) => (
-          <div key={meal.idMeal}>
-            <img src={meal.strMealThumb} alt="" />
-            <p>{meal.strMeal}</p>
-            <form action={meal.strYoutube} target="">
-              <input type="submit" value="Watch Video" />
-            </form>
-          </div>
-        ))}
+{meals.map((meal) => (
+  <div key={meal.idMeal}>
+    <img src={meal.strMealThumb} alt="" />
+    <p>{meal.strMeal}</p>
+    <form action={meal.strYoutube} target="_blank">
+      <input type="submit" value="Watch Video" />
+    </form>
+  </div>
+))}
+
       </div>
     </div>
   );
